@@ -13,6 +13,7 @@ body {
 }
 header {
 	font-size: 1rem;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 header,
 form {
@@ -30,6 +31,7 @@ form {
 	margin: 0;
 	top: 0;
 	width: 100%;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 form input,
 form button {
@@ -90,10 +92,10 @@ form button:hover {
 	color: white;
 	border-radius: 50%;
 	border: 3px solid #fff;
-	box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 	padding: 1rem;
 	cursor: pointer;
-	font-size: 0.5rem;
+	font-size: 1rem;
 }
 
 .complete-btn {
