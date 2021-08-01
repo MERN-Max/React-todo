@@ -34,13 +34,14 @@ form {
 form input,
 form button {
 	padding: 0.3rem;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	border-radius: 0.3rem;
 	border: 1.5px solid #0e2431;
 	/* outline: none; */
-	border-color: none;
+	/* border-color: none; */
 	outline: none;
 	background-color: white;
+	justify-content: center;
 }
 form button {
 	color: #ff6f47;

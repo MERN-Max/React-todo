@@ -37,7 +37,7 @@ function App() {
 	return (
 		<div className='app'>
 			<header>
-				<h1>MAX'S Todo</h1>
+				<h1>React Todo</h1>
 			</header>
 			<Form
 				inputText={inputText}
