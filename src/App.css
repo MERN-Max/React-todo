@@ -6,12 +6,23 @@
 }
 
 body {
-	background-image: linear-gradient(120deg, #1106aa, #ff6f47);
 	color: white;
+	position: relative;
 	font-family: 'Lato', sans-serif;
+
+	background-image: url('https://cdn2.geckoandfly.com/wp-content/uploads/2013/11/Misc_motivational_166178.jpg');
+	background-size: cover;
+	background-position: center center;
+	/* filter: blur(); */
+	background-repeat: no-repeat;
+
+	background-size: cover;
+	background-position: center;
+	min-width: 100%;
 	min-height: 100vh;
 }
 header {
+	background-image: linear-gradient(120deg, #26252b, #cab9b4);
 	font-size: 1rem;
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
@@ -47,14 +58,14 @@ form button {
 	box-shadow: 0 3px 10px rgb(0 0 0 / 1);
 }
 form button {
-	color: #ff6f47;
+	color: #26252b;
 	background: white;
 	cursor: pointer;
 	transition: all 0s ease;
 	/* margin-left: ; */
 }
 form button:hover {
-	background: #ff6f47;
+	background: #26252b;
 	color: white;
 	transform: scale(1.1);
 }
@@ -88,7 +99,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-	background: #e63553;
+	background: #26252b;
 	color: white;
 	border-radius: 50%;
 	border: 3px solid #fff;
@@ -140,7 +151,7 @@ select {
 }
 
 select {
-	color: #f84717;
+	color: #26252b;
 	width: 10rem;
 	cursor: pointer;
 	padding: 0.5rem;
@@ -151,7 +162,7 @@ select {
 .select::after {
 	content: '\25BC';
 	position: absolute;
-	background: #ff6f47;
+	background: #26252b;
 	top: 0;
 	right: 0;
 	padding: 0.3rem;
@@ -164,7 +175,7 @@ select {
 
 .select:hover:after {
 	background: white;
-	color: #ff6f47;
+	color: #26252b;
 	transform: scale(1.5);
 	border-radius: 0.3rem;
 	border: 1.5px solid #fff;

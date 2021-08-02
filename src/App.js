@@ -57,6 +57,7 @@ function App() {
 			<header>
 				<h1>React Todo</h1>
 			</header>
+			<div className='body-background'></div>
 			<Form
 				inputText={inputText}
 				todos={todos}
