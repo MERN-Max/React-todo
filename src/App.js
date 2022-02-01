@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+// import {BrowserRouter, Route, Switch} from 'react-router-dom';
+
 import './App.css';
 // Import Components
 import Form from './Form';
@@ -31,9 +33,6 @@ function App() {
 			case 'uncompleted':
 				setFilterTodos(todos.filter((todo) => todo.completed === false));
 				break;
-			// case 'uncompleted':
-			// 	setFilterTodos(todos.filter((todo) => todo.completed === false));
-			// 	break;
 			default:
 				setFilterTodos(todos);
 				break;
@@ -65,6 +64,7 @@ function App() {
 				setInputText={setInputText}
 				setStatus={setStatus}
 			/>
+
 			<TodoList todos={todos} setTodos={setTodos} filterTodos={filterTodos} />
 		</div>
 	);

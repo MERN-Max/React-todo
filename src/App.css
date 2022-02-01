@@ -3,20 +3,22 @@
 	padding: 0;
 	box-shadow: border-box;
 	background-size: auto;
+	
 }
 
 body {
 	color: white;
-	position: relative;
+	position:relative;
 	font-family: 'Lato', sans-serif;
-
-	background-image: url('https://cdn2.geckoandfly.com/wp-content/uploads/2013/11/Misc_motivational_166178.jpg');
-	background-size: cover;
+	/* background-color: linear-gradient(120deg,#cab9b4, #26252b ); */
+  background-image:url(./WallpaperDog-20355568.jpg);
+	/* background-image: url('https://cdn2.geckoandfly.com/wp-content/uploads/2013/11/Misc_motivational_166178.jpg'); */
+	background-size:contain;
 	background-position: center center;
 	/* filter: blur(); */
 	background-repeat: no-repeat;
 
-	background-size: cover;
+	background-size:cover;
 	background-position: center;
 	min-width: 100%;
 	min-height: 100vh;
@@ -44,6 +46,10 @@ form {
 	width: 100%;
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
+.todo-container{
+color: linear-gradient(120deg,#cab9b4, #26252b );
+}
 form input,
 form button {
 	padding: 0.3rem;
@@ -53,9 +59,30 @@ form button {
 	/* outline: none; */
 	/* border-color: none; */
 	outline: none;
-	background-color: white;
+	/* background-color: white; */
 	justify-content: center;
-	box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+	box-shadow: 0 3px 3px rgb(54, 53, 53);
+}
+todo-input{
+	margin: 0.5rem;
+	background: white;
+	color: rgb(29, 26, 26);
+	font-size: 1.3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: all 0.5s ease;
+	border-radius: 1rem;
+	border: 3px solid #fff;
+	box-shadow: 0 3px 3px rgb(54, 53, 53);
+}
+todo-button{
+	padding: 0.3rem;
+	border-radius: 0.3rem;
+	font-size: 6rem;
+	border: 1.5px solid #fff;
+	background-color: rgb(24, 115, 233);
+	justify-content: center;
 }
 form button {
 	color: #26252b;
@@ -82,7 +109,7 @@ form button:hover {
 .todo {
 	margin: 0.5rem;
 	background: white;
-	color: black;
+	color: rgb(29, 26, 26);
 	font-size: 1.3rem;
 	display: flex;
 	justify-content: space-between;
@@ -90,7 +117,7 @@ form button:hover {
 	transition: all 0.5s ease;
 	border-radius: 1rem;
 	border: 3px solid #fff;
-	box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+	box-shadow: 0 3px 3px rgb(54, 53, 53);
 }
 
 .todo li {
@@ -106,7 +133,7 @@ form button:hover {
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 	padding: 1rem;
 	cursor: pointer;
-	font-size: 1rem;
+	font-size: 0.5rem;
 }
 
 .complete-btn {
@@ -139,7 +166,7 @@ select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	border-radius: 0.3rem;
+	border-radius: 0.4rem;
 	border: 1.5px solid #fff;
 }
 
@@ -147,7 +174,8 @@ select {
 	margin: 0.5rem;
 	position: relative;
 	overflow: hidden;
-	box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+	box-shadow: 0 3px 3px rgb(54, 53, 53);
+	border-radius: 0.5rem;
 }
 
 select {
